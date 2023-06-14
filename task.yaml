@@ -1,0 +1,11 @@
+name: taskName
+description: taskDescription
+source: taskRepoPath for eq - https://github.com/myorg/mytask
+labels:
+  - label1
+  - label2
+input:
+  - name: input name
+    description: input description
+execution:
+  - command to be executed
