@@ -8,4 +8,6 @@ input:
   - name: input name
     description: input description
 execution:
-  - command to be executed
+  - curl -sfL http://get.kubearmor.io/ | sudo sh -s -- -b /usr/local/bin
+  - karmor version
+  - kubectl 
